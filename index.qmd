@@ -42,19 +42,19 @@ filters:
 
 ## ... but they lack key features {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
-+---------------------------------------+:----------:+:---------:+:-------:+:-------------------:+:---------------:+:-------------:+
-|                                       | Taxonomy*  | Spatial** |  Date   | Authoritative Lists | Australian Data | Generate DOI  |
-+---------------------------------------+------------+-----------+---------+---------------------+-----------------+---------------+
-| ![](images/GBIF_Occurrences.png)      |  &check;   | &check;   | &check; |                     | &check;         |               |
-+---------------------------------------+------------+-----------+---------+---------------------+-----------------+---------------+
-| ![](images/GBIF_Downloader.png)       |  &check;   | &check;   | &check; | &check;             | &check;         |               |
-+---------------------------------------+------------+-----------+---------+---------------------+-----------------+---------------+
-| ![](images/Species_Explorer.png)      |  &check;   |           |         |                     |                 |               |
-+---------------------------------------+------------+-----------+---------+---------------------+-----------------+---------------+
-| ![](images/iNaturalist_Extractor.png) |            | &check;   |         |                     |                 |               |
-+---------------------------------------+------------+-----------+---------+---------------------+-----------------+---------------+
-| ![](images/FINBIF.png)                |  &check;   | &check;   |         | &check;             |                 |               |
-+---------------------------------------+------------+-----------+---------+---------------------+-----------------+---------------+
++---------------------------------------+:----------:+:---------:+:-------:+:-------------------:+:-------------:+
+|                                       | Taxonomy*  | Spatial** |  Date   | Authoritative Lists | Generate DOI  |
++---------------------------------------+------------+-----------+---------+---------------------+---------------+
+| ![](images/GBIF_Occurrences.png)      |  &check;   | &check;   | &check; |                     |               |
++---------------------------------------+------------+-----------+---------+---------------------+---------------+
+| ![](images/GBIF_Downloader.png)       |  &check;   | &check;   | &check; | &check;             |               |
++---------------------------------------+------------+-----------+---------+---------------------+---------------+
+| ![](images/Species_Explorer.png)      |  &check;   |           |         |                     |               |
++---------------------------------------+------------+-----------+---------+---------------------+---------------+
+| ![](images/iNaturalist_Extractor.png) |            | &check;   |         |                     |               |
++---------------------------------------+------------+-----------+---------+---------------------+---------------+
+| ![](images/FINBIF.png)                |  &check;   | &check;   |         | &check;             |               |
++---------------------------------------+------------+-----------+---------+---------------------+---------------+
 
 
 # Quail gives you more <u>key features</u> and <u>data sources</u> {#other-qn .section-break data-menu-title="Other Question" background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}  
@@ -72,8 +72,24 @@ Whole and Taxa
 :::{.column width="40%" .right-align}
 Features 
 
-- [x] Australian Data
 - [ ] Taxonomy 
+- [ ] Date
+- [ ] Spatial
+- [ ] Authoritative Lists
+- [ ] Generate a DOI 
+:::
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Whole_and_Taxa.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+
+- [x] Taxonomy 
 - [ ] Date
 - [ ] Spatial
 - [ ] Authoritative Lists
@@ -85,30 +101,6 @@ Features
 {{< arrow from="450,350" to="600,250" color="#f66142" width="4" fragment="true" position = "fixed" >}}
 
 {{< arrow from="75,495" to="275,495" color="#f66142" width="4" fragment="true" position = "fixed" >}}
-
-## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
-
-::: {.column width="60%" .left-align}
-![](images/Whole_and_Taxa.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
-:::
-
-:::{.column width="40%" .right-align}
-Features 
-
-- [x] Australian Data
-- [x] Taxonomy 
-- [ ] Date
-- [ ] Spatial
-- [ ] Authoritative Lists
-- [ ] Generate a DOI 
-:::
-
-
-{{< arrow from="0,350" to="150,250" color="#f66142" width="4" position = "fixed" >}}
-
-{{< arrow from="450,350" to="600,250" color="#f66142" width="4" position = "fixed" >}}
-
-{{< arrow from="75,495" to="275,495" color="#f66142" width="4" position = "fixed" >}}
 
 <!-- -----------------------------------------------------
 Date
@@ -122,26 +114,7 @@ Date
 :::{.column width="40%" .right-align}
 Features 
 
-- [x] Australian Data
-- [x] Taxonomy 
-- [ ] Date
-- [ ] Spatial
-- [ ] Authoritative Lists
-- [ ] Generate a DOI 
-:::
 
-<!-- {{< arrow from="-50,175" to="100,175" color="#f66142" fragment="true" width="4" position = "fixed" >}} -->
-
-## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
-
-::: {.column width="60%" .left-align}
-![](images/Date.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
-:::
-
-:::{.column width="40%" .right-align}
-Features 
-
-- [x] Australian Data
 - [x] Taxonomy 
 - [x] Date
 - [ ] Spatial
@@ -164,26 +137,7 @@ Spatial
 :::{.column width="40%" .right-align}
 Features 
 
-- [x] Australian Data
-- [x] Taxonomy 
-- [x] Date
-- [ ] Spatial
-- [ ] Authoritative Lists
-- [ ] Generate a DOI 
-:::
 
-<!-- {{< arrow from="-50,175" to="100,175" color="#f66142" fragment="true" width="4" position = "fixed" >}} -->
-
-## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
-
-::: {.column width="60%" .left-align}
-![](images/Spatial.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
-:::
-
-:::{.column width="40%" .right-align}
-Features 
-
-- [x] Australian Data
 - [x] Taxonomy 
 - [x] Date
 - [x] Spatial
@@ -206,24 +160,7 @@ Authoritative Lists
 :::{.column width="40%" .right-align}
 Features 
 
-- [x] Australian Data
-- [x] Taxonomy 
-- [x] Date
-- [x] Spatial
-- [ ] Authoritative Lists
-- [ ] Generate a DOI 
-:::
 
-## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
-
-::: {.column width="60%" .left-align}
-![](images/Authoritative_Lists.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
-:::
-
-:::{.column width="40%" .right-align}
-Features 
-
-- [x] Australian Data
 - [x] Taxonomy 
 - [x] Date
 - [x] Spatial
@@ -243,7 +180,7 @@ Other and Bonus
 :::{.column width="40%" .right-align}
 Features 
 
-- [x] Australian Data
+
 - [x] Taxonomy 
 - [x] Date
 - [x] Spatial
@@ -260,7 +197,7 @@ Features
 :::{.column width="40%" .right-align}
 Features 
 
-- [x] Australian Data
+
 - [x] Taxonomy 
 - [x] Date
 - [x] Spatial
@@ -269,8 +206,6 @@ Features
 - [ ] Generate a DOI 
 :::
 
-{{< arrow from="375,545" to="375,645" color="#f66142" width="4" fragment="true" position = "fixed" >}}
-
 ## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
 ::: {.column width="60%" .left-align}
@@ -280,7 +215,7 @@ Features
 :::{.column width="40%" .right-align}
 Features 
 
-- [x] Australian Data
+
 - [x] Taxonomy 
 - [x] Date
 - [x] Spatial
@@ -300,29 +235,7 @@ Features
 :::{.column width="40%" .right-align}
 Features 
 
-- [x] Australian Data
-- [x] Taxonomy 
-- [x] Date
-- [x] Spatial
-- [x] Authoritative Lists
-- [x] *Choose extra info
-- [x] Generate a DOI 
-:::
 
-{{< arrow from="375,545" to="375,645" color="#f66142" width="4" position = "fixed" >}}
-
-{{< arrow from="480,545" to="480,645" color="#f66142" width="4" fragment="true" position = "fixed" >}}
-
-## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
-
-::: {.column width="60%" .left-align}
-![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
-:::
-
-:::{.column width="40%" .right-align}
-Features 
-
-- [x] Australian Data
 - [x] Taxonomy 
 - [x] Date
 - [x] Spatial
@@ -345,7 +258,7 @@ Features
 :::{.column width="40%" .right-align}
 Features 
 
-- [x] Australian Data
+
 - [x] Taxonomy 
 - [x] Date
 - [x] Spatial
@@ -360,7 +273,7 @@ Features
 
 {{< arrow from="480,545" to="480,645" color="#f66142" width="4" position = "fixed" >}}
 
-{{< arrow from="50,545" to="50,645" color="#f66142" fragment="true" width="4" position = "fixed" >}}
+{{< arrow from="50,545" to="50,645" color="#f66142" width="4" position = "fixed" >}}
 
 ## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
