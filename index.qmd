@@ -15,7 +15,7 @@ filters:
 ## {#title data-menu-title="Title"}
 ![](images/logo.png){.absolute left=550 bottom=120 width="500"}
 [Quail: A QGIS Plugin for accessing biodiversity data from the Living Atlases]{.title}  
-[Amanda Buyan]{.names}  
+[Dr. Amanda Buyan]{.names}  
 
 ## What is QGIS? {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
@@ -224,7 +224,7 @@ Features
 - [x] Generate a DOI 
 :::
 
-{{< arrow from="375,545" to="375,645" color="#f66142" width="4" position = "fixed" >}}
+{{< arrow from="365,510" to="365,610" color="#f66142" width="4" position = "fixed" >}}
 
 ## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
@@ -245,9 +245,9 @@ Features
 - [x] *Use a DOI 
 :::
 
-{{< arrow from="375,545" to="375,645" color="#f66142" width="4" position = "fixed" >}}
+{{< arrow from="365,510" to="365,610" color="#f66142" width="4" position = "fixed" >}}
 
-{{< arrow from="480,545" to="480,645" color="#f66142" width="4" position = "fixed" >}}
+{{< arrow from="520,510" to="520,610" color="#f66142" width="4" position = "fixed" >}}
 
 ## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
@@ -269,11 +269,11 @@ Features
 - [x] *Use other atlases
 :::
 
-{{< arrow from="375,545" to="375,645" color="#f66142" width="4" position = "fixed" >}}
+{{< arrow from="365,510" to="365,610" color="#f66142" width="4" position = "fixed" >}}
 
-{{< arrow from="480,545" to="480,645" color="#f66142" width="4" position = "fixed" >}}
+{{< arrow from="520,510" to="520,610" color="#f66142" width="4" position = "fixed" >}}
 
-{{< arrow from="50,545" to="50,645" color="#f66142" width="4" position = "fixed" >}}
+{{< arrow from="60,510" to="60,610" color="#f66142" width="4" position = "fixed" >}}
 
 ## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
