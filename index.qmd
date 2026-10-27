@@ -1,0 +1,418 @@
+---
+pagetitle: "esa-2025"
+format:
+  revealjs: 
+    theme: custom.scss
+    height: 900
+    width: 1600
+    highlight-style: a11y
+    menu: false
+editor: visual
+filters:
+  - arrows
+---
+
+## {#title data-menu-title="Title"}
+![](images/logo.png){.absolute left=550 bottom=120 width="500"}
+[Quail: A QGIS Plugin for accessing biodiversity data from the Living Atlases]{.title}  
+[Amanda Buyan]{.names}  
+
+## What is QGIS? {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+![](images/qgis-logo-small.png){.absolute left=50 bottom=300 width="300" fig-cap="qgis.org"}
+
+![](images/QGIS_Workspace.png){.absolute left=450 bottom=60 width="1200"}
+
+<!-- Change colours to be Quail colours -->
+# How can we easily download and visualise biodiversity data into QGIS? {#cons-qn .section-break data-menu-title="Cons Question" background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}  
+
+## There are existing plugins ... {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+![](images/GBIF_Occurrences.png){.absolute left=0 bottom=500 width="500"}
+
+![](images/GBIF_Downloader.png){.absolute left=600 bottom=500 width="500"}
+
+![](images/Species_Explorer.png){.absolute left=1200 bottom=500 width="500"}
+
+![](images/iNaturalist_Extractor.png){.absolute left=200 bottom=200 width="500"}
+
+![](images/FINBIF.png){.absolute left=800 bottom=200 width="500"}
+
+
+
+## ... but they lack key features {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
++---------------------------------------+:----------:+:---------:+:-------:+:-------------------:+:---------------:+:-------------:+
+|                                       | Taxonomy*  | Spatial** |  Date   | Authoritative Lists | Australian Data | Generate DOI  |
++---------------------------------------+------------+-----------+---------+---------------------+-----------------+---------------+
+| ![](images/GBIF_Occurrences.png)      |  &check;   | &check;   | &check; |                     | &check;         |               |
++---------------------------------------+------------+-----------+---------+---------------------+-----------------+---------------+
+| ![](images/GBIF_Downloader.png)       |  &check;   | &check;   | &check; | &check;             | &check;         |               |
++---------------------------------------+------------+-----------+---------+---------------------+-----------------+---------------+
+| ![](images/Species_Explorer.png)      |  &check;   |           |         |                     |                 |               |
++---------------------------------------+------------+-----------+---------+---------------------+-----------------+---------------+
+| ![](images/iNaturalist_Extractor.png) |            | &check;   |         |                     |                 |               |
++---------------------------------------+------------+-----------+---------+---------------------+-----------------+---------------+
+| ![](images/FINBIF.png)                |  &check;   | &check;   |         | &check;             |                 |               |
++---------------------------------------+------------+-----------+---------+---------------------+-----------------+---------------+
+
+
+# Quail gives you more <u>key features</u> and <u>data sources</u> {#other-qn .section-break data-menu-title="Other Question" background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}  
+
+
+<!-- -----------------------------------------------------
+Whole and Taxa 
+----------------------------------------------------- --->
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Whole_and_Taxa.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [ ] Taxonomy 
+- [ ] Date
+- [ ] Spatial
+- [ ] Authoritative Lists
+- [ ] Generate a DOI 
+:::
+
+{{< arrow from="0,350" to="150,250" color="#f66142" width="4" fragment="true" position = "fixed" >}}
+
+{{< arrow from="450,350" to="600,250" color="#f66142" width="4" fragment="true" position = "fixed" >}}
+
+{{< arrow from="75,495" to="275,495" color="#f66142" width="4" fragment="true" position = "fixed" >}}
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Whole_and_Taxa.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [ ] Date
+- [ ] Spatial
+- [ ] Authoritative Lists
+- [ ] Generate a DOI 
+:::
+
+
+{{< arrow from="0,350" to="150,250" color="#f66142" width="4" position = "fixed" >}}
+
+{{< arrow from="450,350" to="600,250" color="#f66142" width="4" position = "fixed" >}}
+
+{{< arrow from="75,495" to="275,495" color="#f66142" width="4" position = "fixed" >}}
+
+<!-- -----------------------------------------------------
+Date
+----------------------------------------------------- --->
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Date.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [ ] Date
+- [ ] Spatial
+- [ ] Authoritative Lists
+- [ ] Generate a DOI 
+:::
+
+<!-- {{< arrow from="-50,175" to="100,175" color="#f66142" fragment="true" width="4" position = "fixed" >}} -->
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Date.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [x] Date
+- [ ] Spatial
+- [ ] Authoritative Lists
+- [ ] Generate a DOI 
+:::
+
+<!-- {{< arrow from="-50,175" to="100,175" color="#f66142" fragment="true" width="4" position = "fixed" >}} -->
+
+<!-- -----------------------------------------------------
+Spatial
+----------------------------------------------------- --->
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Spatial.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [x] Date
+- [ ] Spatial
+- [ ] Authoritative Lists
+- [ ] Generate a DOI 
+:::
+
+<!-- {{< arrow from="-50,175" to="100,175" color="#f66142" fragment="true" width="4" position = "fixed" >}} -->
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Spatial.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [x] Date
+- [x] Spatial
+- [ ] Authoritative Lists
+- [ ] Generate a DOI 
+:::
+
+<!-- {{< arrow from="-50,175" to="100,175" color="#f66142" fragment="true" width="4" position = "fixed" >}} -->
+
+<!-- -----------------------------------------------------
+Authoritative Lists
+----------------------------------------------------- --->
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Authoritative_Lists.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [x] Date
+- [x] Spatial
+- [ ] Authoritative Lists
+- [ ] Generate a DOI 
+:::
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Authoritative_Lists.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [x] Date
+- [x] Spatial
+- [x] Authoritative Lists
+- [ ] Generate a DOI 
+:::
+
+<!-- -----------------------------------------------------
+Other and Bonus
+----------------------------------------------------- --->
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [x] Date
+- [x] Spatial
+- [x] Authoritative Lists
+- [ ] Generate a DOI 
+:::
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [x] Date
+- [x] Spatial
+- [x] Authoritative Lists
+- [x] *Choose extra info
+- [ ] Generate a DOI 
+:::
+
+{{< arrow from="375,545" to="375,645" color="#f66142" width="4" fragment="true" position = "fixed" >}}
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [x] Date
+- [x] Spatial
+- [x] Authoritative Lists
+- [x] *Choose extra info
+- [x] Generate a DOI 
+:::
+
+{{< arrow from="375,545" to="375,645" color="#f66142" width="4" position = "fixed" >}}
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [x] Date
+- [x] Spatial
+- [x] Authoritative Lists
+- [x] *Choose extra info
+- [x] Generate a DOI 
+:::
+
+{{< arrow from="375,545" to="375,645" color="#f66142" width="4" position = "fixed" >}}
+
+{{< arrow from="480,545" to="480,645" color="#f66142" width="4" fragment="true" position = "fixed" >}}
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [x] Date
+- [x] Spatial
+- [x] Authoritative Lists
+- [x] *Choose extra info
+- [x] Generate a DOI 
+- [x] *Use a DOI 
+:::
+
+{{< arrow from="375,545" to="375,645" color="#f66142" width="4" position = "fixed" >}}
+
+{{< arrow from="480,545" to="480,645" color="#f66142" width="4" position = "fixed" >}}
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+- [x] Australian Data
+- [x] Taxonomy 
+- [x] Date
+- [x] Spatial
+- [x] Authoritative Lists
+- [x] *Choose extra info
+- [x] Generate a DOI 
+- [x] *Use a DOI 
+- [x] *Use other atlases
+:::
+
+{{< arrow from="375,545" to="375,645" color="#f66142" width="4" position = "fixed" >}}
+
+{{< arrow from="480,545" to="480,645" color="#f66142" width="4" position = "fixed" >}}
+
+{{< arrow from="50,545" to="50,645" color="#f66142" fragment="true" width="4" position = "fixed" >}}
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Getting Data 
+
+- [x] Check Number of Records Before Download
+:::
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Getting Data 
+
+- [x] Check Number of Records Before Download
+- [x] Import Occurrence Records into QGIS
+:::
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Getting Data 
+
+- [x] Check Number of Records Before Download
+- [x] Import Occurrence Records Into QGIS
+- [x] Get Species List With Counts and Statuses
+:::
+
+<!-- -----------------------------------------------------
+Final Slide
+----------------------------------------------------- --->
+## {#final data-menu-title="Final" background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)" .final}  
+
+::: {.column width="50%" .left-align}
+<br><br> **Amanda Buyan** <br> Data Engineer <br> Atlas of Living Australia <br> {{< fa envelope >}} amanda.buyan\@csiro.au <br> {{< fa brands github >}} acbuyan <br><br> ![](images/logos_white.png)
+:::
+
+<!-- Add Poster number here -->
+:::{.column width="40%" .right-align} 
+<!-- .right-align} -->
+<br><br>**Poster:** #XXXX
+<br><br>**Quail documentation:** <br> ![](images/Quail_Docs_QR.png){width=60%}   
+:::
