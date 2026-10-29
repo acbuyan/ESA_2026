@@ -1,5 +1,5 @@
 ---
-pagetitle: "esa-2025"
+pagetitle: "esa-2026"
 format:
   revealjs: 
     theme: custom.scss
@@ -16,12 +16,6 @@ filters:
 ![](images/logo.png){.absolute left=550 bottom=120 width="500"}
 [Quail: A QGIS Plugin for accessing biodiversity data from the Living Atlases]{.title}  
 [Dr. Amanda Buyan]{.names}  
-
-## What is QGIS? {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
-
-![](images/qgis-logo-small.png){.absolute left=50 bottom=300 width="300" fig-cap="qgis.org"}
-
-![](images/QGIS_Workspace.png){.absolute left=450 bottom=60 width="1200"}
 
 <!-- Change colours to be Quail colours -->
 # How can we easily download and visualise biodiversity data into QGIS? {#cons-qn .section-break data-menu-title="Cons Question" background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}  
@@ -40,10 +34,10 @@ filters:
 
 
 
-## ... but they lack key features {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+## ... but they are missing features {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
 +---------------------------------------+:----------:+:---------:+:-------:+:-------------------:+:-------------:+
-|                                       | Taxonomy*  | Spatial** |  Date   | Authoritative Lists | Generate DOI  |
+|                                       | Taxonomy   | Spatial.  |  Date   | Authoritative Lists | Generate DOI  |
 +---------------------------------------+------------+-----------+---------+---------------------+---------------+
 | ![](images/GBIF_Occurrences.png)      |  &check;   | &check;   | &check; |                     |               |
 +---------------------------------------+------------+-----------+---------+---------------------+---------------+
@@ -57,7 +51,19 @@ filters:
 +---------------------------------------+------------+-----------+---------+---------------------+---------------+
 
 
-# Quail gives you more <u>key features</u> and <u>data sources</u> {#other-qn .section-break data-menu-title="Other Question" background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}  
+# {#other-qn .section-break data-menu-title="Quail logo"}  
+
+![](images/logo.png){width="40%" fig-align="center"}
+
+# {#logos .section-break data-menu-title="Quail logo"}  
+
+::: {.column width="50%" .left-align}
+![](images/logo.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+::: 
+
+::: {.column width="50%" .left-align}
+![](images/galah-logo.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+::: 
 
 
 <!-- -----------------------------------------------------
@@ -72,7 +78,7 @@ Whole and Taxa
 :::{.column width="40%" .right-align}
 Features 
 
-- [ ] Taxonomy 
+- [x] Taxonomy 
 - [ ] Date
 - [ ] Spatial
 - [ ] Authoritative Lists
@@ -96,11 +102,45 @@ Features
 - [ ] Generate a DOI 
 :::
 
-{{< arrow from="0,350" to="150,250" color="#f66142" width="4" fragment="true" position = "fixed" >}}
+{{< arrow from="0,350" to="150,250" color="#f66142" width="4" position = "fixed" >}}
 
-{{< arrow from="450,350" to="600,250" color="#f66142" width="4" fragment="true" position = "fixed" >}}
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
-{{< arrow from="75,495" to="275,495" color="#f66142" width="4" fragment="true" position = "fixed" >}}
+::: {.column width="60%" .left-align}
+![](images/Whole_and_Taxa.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+
+- [x] Taxonomy 
+- [ ] Date
+- [ ] Spatial
+- [ ] Authoritative Lists
+- [ ] Generate a DOI 
+:::
+
+{{< arrow from="450,350" to="600,250" color="#f66142" width="4" position = "fixed" >}}
+
+## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
+
+::: {.column width="60%" .left-align}
+![](images/Whole_and_Taxa.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+:::
+
+:::{.column width="40%" .right-align}
+Features 
+
+
+- [x] Taxonomy 
+- [ ] Date
+- [ ] Spatial
+- [ ] Authoritative Lists
+- [ ] Generate a DOI 
+:::
+
+{{< arrow from="75,495" to="275,495" color="#f66142" width="4" position = "fixed" >}}
 
 <!-- -----------------------------------------------------
 Date
@@ -122,8 +162,6 @@ Features
 - [ ] Generate a DOI 
 :::
 
-<!-- {{< arrow from="-50,175" to="100,175" color="#f66142" fragment="true" width="4" position = "fixed" >}} -->
-
 <!-- -----------------------------------------------------
 Spatial
 ----------------------------------------------------- --->
@@ -131,7 +169,7 @@ Spatial
 ## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
 ::: {.column width="60%" .left-align}
-![](images/Spatial.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+![](images/Spatial.png)
 :::
 
 :::{.column width="40%" .right-align}
@@ -144,8 +182,6 @@ Features
 - [ ] Authoritative Lists
 - [ ] Generate a DOI 
 :::
-
-<!-- {{< arrow from="-50,175" to="100,175" color="#f66142" fragment="true" width="4" position = "fixed" >}} -->
 
 <!-- -----------------------------------------------------
 Authoritative Lists
@@ -174,7 +210,7 @@ Other and Bonus
 ## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
 ::: {.column width="60%" .left-align}
-![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+![](images/Other.png)
 :::
 
 :::{.column width="40%" .right-align}
@@ -191,7 +227,7 @@ Features
 ## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
 ::: {.column width="60%" .left-align}
-![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+![](images/Other.png)
 :::
 
 :::{.column width="40%" .right-align}
@@ -209,7 +245,7 @@ Features
 ## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
 ::: {.column width="60%" .left-align}
-![](images/Other.png) <!-- {.absolute left=300 bottom=50 width="900"} -->
+![](images/Other.png)
 :::
 
 :::{.column width="40%" .right-align}
@@ -245,7 +281,6 @@ Features
 - [x] *Use a DOI 
 :::
 
-{{< arrow from="365,510" to="365,610" color="#f66142" width="4" position = "fixed" >}}
 
 {{< arrow from="520,510" to="520,610" color="#f66142" width="4" position = "fixed" >}}
 
@@ -269,10 +304,6 @@ Features
 - [x] *Use other atlases
 :::
 
-{{< arrow from="365,510" to="365,610" color="#f66142" width="4" position = "fixed" >}}
-
-{{< arrow from="520,510" to="520,610" color="#f66142" width="4" position = "fixed" >}}
-
 {{< arrow from="60,510" to="60,610" color="#f66142" width="4" position = "fixed" >}}
 
 ## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
@@ -287,6 +318,8 @@ Getting Data
 - [x] Check Number of Records Before Download
 :::
 
+{{< arrow from="75,710" to="275,710" color="#f66142" width="4" position = "fixed" >}}
+
 ## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
 ::: {.column width="60%" .left-align}
@@ -299,6 +332,8 @@ Getting Data
 - [x] Check Number of Records Before Download
 - [x] Import Occurrence Records into QGIS
 :::
+
+{{< arrow from="660,890" to="660,790" color="#f66142" width="4" position = "fixed" >}}
 
 ## {background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)"}
 
@@ -314,6 +349,8 @@ Getting Data
 - [x] Get Species List With Counts and Statuses
 :::
 
+{{< arrow from="220,890" to="220,790" color="#f66142" width="4" position = "fixed" >}}
+
 <!-- -----------------------------------------------------
 Final Slide
 ----------------------------------------------------- --->
@@ -326,6 +363,5 @@ Final Slide
 <!-- Add Poster number here -->
 :::{.column width="40%" .right-align} 
 <!-- .right-align} -->
-<br><br>**Poster:** #XXXX
 <br><br>**Quail documentation:** <br> ![](images/Quail_Docs_QR.png){width=60%}   
 :::

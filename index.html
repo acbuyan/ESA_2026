@@ -7,12 +7,11 @@
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-975e726794ce811e14261b5ab5acfd7c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="index_files/libs/quarto-contrib/arrows-fragment/arrows-fragment.js"></script>
 <link href="index_files/libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.9.36">
 
-  <title>esa-2025</title>
+  <title>esa-2026</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -136,11 +135,6 @@
 <h2></h2>
 <p><img data-src="images/logo.png" class="absolute" style="left: 550px; bottom: 120px; width: 500px; "> <span class="title">Quail: A QGIS Plugin for accessing biodiversity data from the Living Atlases</span><br>
 <span class="names">Dr.&nbsp;Amanda Buyan</span></p>
-</section>
-<section id="what-is-qgis" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
-<h2>What is QGIS?</h2>
-<p><img data-src="images/qgis-logo-small.png" class="absolute" style="left: 50px; bottom: 300px; width: 300px; " data-fig-cap="qgis.org"></p>
-<p><img data-src="images/QGIS_Workspace.png" class="absolute" style="left: 450px; bottom: 60px; width: 1200px; "></p>
 <!-- Change colours to be Quail colours -->
 </section>
 <section>
@@ -156,8 +150,8 @@
 <p><img data-src="images/iNaturalist_Extractor.png" class="absolute" style="left: 200px; bottom: 200px; width: 500px; "></p>
 <p><img data-src="images/FINBIF.png" class="absolute" style="left: 800px; bottom: 200px; width: 500px; "></p>
 </section>
-<section id="but-they-lack-key-features" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
-<h2>… but they lack key features</h2>
+<section id="but-they-are-missing-features" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+<h2>… but they are missing features</h2>
 <table class="caption-top" style="width:97%;">
 <colgroup>
 <col style="width: 34%">
@@ -170,8 +164,8 @@
 <tbody>
 <tr class="odd">
 <td></td>
-<td style="text-align: center;">Taxonomy*</td>
-<td style="text-align: center;">Spatial**</td>
+<td style="text-align: center;">Taxonomy</td>
+<td style="text-align: center;">Spatial.</td>
 <td style="text-align: center;">Date</td>
 <td style="text-align: center;">Authoritative Lists</td>
 <td style="text-align: center;">Generate DOI</td>
@@ -219,10 +213,19 @@
 </tbody>
 </table>
 </section></section>
+<section id="other-qn" class="title-slide slide level1 section-break center" data-menu-title="Quail logo">
+<h1></h1>
+
+<img data-src="images/logo.png" class="quarto-figure quarto-figure-center r-stretch" style="width:40.0%"></section>
+
 <section>
-<section id="other-qn" class="title-slide slide level1 section-break center" data-menu-title="Other Question" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
-<h1>Quail gives you more <u>key features</u> and <u>data sources</u></h1>
-<!-- -----------------------------------------------------
+<section id="logos" class="title-slide slide level1 section-break center" data-menu-title="Quail logo">
+<h1></h1>
+<div class="column left-align" style="width:50%;">
+<p><img data-src="images/logo.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
+</div><div class="column left-align" style="width:50%;">
+<p><img data-src="images/galah-logo.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
+</div><!-- -----------------------------------------------------
 Whole and Taxa 
 ----------------------------------------------------- --->
 </section>
@@ -233,7 +236,7 @@ Whole and Taxa
 </div><div class="column right-align" style="width:40%;">
 <p>Features</p>
 <ul class="task-list">
-<li><label><input type="checkbox">Taxonomy</label></li>
+<li><label><input type="checkbox" checked="">Taxonomy</label></li>
 <li><label><input type="checkbox">Date</label></li>
 <li><label><input type="checkbox">Spatial</label></li>
 <li><label><input type="checkbox">Authoritative Lists</label></li>
@@ -253,116 +256,42 @@ Whole and Taxa
 <li><label><input type="checkbox">Authoritative Lists</label></li>
 <li><label><input type="checkbox">Generate a DOI</label></li>
 </ul>
-</div><style>
-.arrow-anim-482149-path {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-}
-.arrow-anim-482149-marker {
-  opacity: 0;
-}
-.fragment.visible .arrow-anim-482149-path {
-  animation: arrow-anim-482149-draw 0.50s ease forwards;
-}
-.fragment.visible .arrow-anim-482149-marker {
-  animation: arrow-anim-482149-marker-appear 0.1s ease forwards;
-  animation-delay: 0.05s;
-}
-@keyframes arrow-anim-482149-draw {
-  to { stroke-dashoffset: 0; }
-}
-@keyframes arrow-anim-482149-marker-appear {
-  to { opacity: 1; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .arrow-anim-482149-path {
-    stroke-dasharray: none;
-    stroke-dashoffset: 0;
-  }
-  .arrow-anim-482149-marker {
-    opacity: 1;
-  }
-  .fragment.visible .arrow-anim-482149-path,
-  .fragment.visible .arrow-anim-482149-marker {
-    animation: none;
-  }
-}
-</style><span class="fragment custom" data-arrow-fragment-duration="0.50"><div style="position: fixed; left: -20.0px; top: 230.0px; pointer-events: none; z-index: 9999;"><svg width="190.0" height="140.0" viewbox="0 0 190.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-871010" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path class="arrow-anim-482149-marker" d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path class="arrow-anim-482149-path" d="M 20.0,120.0 L 170.0,20.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-871010)"></path></svg></div></span>
-<style>
-.arrow-anim-946682-path {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-}
-.arrow-anim-946682-marker {
-  opacity: 0;
-}
-.fragment.visible .arrow-anim-946682-path {
-  animation: arrow-anim-946682-draw 0.50s ease forwards;
-}
-.fragment.visible .arrow-anim-946682-marker {
-  animation: arrow-anim-946682-marker-appear 0.1s ease forwards;
-  animation-delay: 0.05s;
-}
-@keyframes arrow-anim-946682-draw {
-  to { stroke-dashoffset: 0; }
-}
-@keyframes arrow-anim-946682-marker-appear {
-  to { opacity: 1; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .arrow-anim-946682-path {
-    stroke-dasharray: none;
-    stroke-dashoffset: 0;
-  }
-  .arrow-anim-946682-marker {
-    opacity: 1;
-  }
-  .fragment.visible .arrow-anim-946682-path,
-  .fragment.visible .arrow-anim-946682-marker {
-    animation: none;
-  }
-}
-</style><span class="fragment custom" data-arrow-fragment-duration="0.50"><div style="position: fixed; left: 430.0px; top: 230.0px; pointer-events: none; z-index: 9999;"><svg width="190.0" height="140.0" viewbox="0 0 190.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-226525" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path class="arrow-anim-946682-marker" d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path class="arrow-anim-946682-path" d="M 20.0,120.0 L 170.0,20.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-226525)"></path></svg></div></span>
-<style>
-.arrow-anim-900551-path {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-}
-.arrow-anim-900551-marker {
-  opacity: 0;
-}
-.fragment.visible .arrow-anim-900551-path {
-  animation: arrow-anim-900551-draw 0.50s ease forwards;
-}
-.fragment.visible .arrow-anim-900551-marker {
-  animation: arrow-anim-900551-marker-appear 0.1s ease forwards;
-  animation-delay: 0.05s;
-}
-@keyframes arrow-anim-900551-draw {
-  to { stroke-dashoffset: 0; }
-}
-@keyframes arrow-anim-900551-marker-appear {
-  to { opacity: 1; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .arrow-anim-900551-path {
-    stroke-dasharray: none;
-    stroke-dashoffset: 0;
-  }
-  .arrow-anim-900551-marker {
-    opacity: 1;
-  }
-  .fragment.visible .arrow-anim-900551-path,
-  .fragment.visible .arrow-anim-900551-marker {
-    animation: none;
-  }
-}
-</style><span class="fragment custom" data-arrow-fragment-duration="0.50"><div style="position: fixed; left: 55.0px; top: 475.0px; pointer-events: none; z-index: 9999;"><svg width="240.0" height="40.0" viewbox="0 0 240.0 40.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-711600" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path class="arrow-anim-900551-marker" d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path class="arrow-anim-900551-path" d="M 20.0,20.0 L 220.0,20.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-711600)"></path></svg></div></span>
+</div><div style="position: fixed; left: -20.0px; top: 230.0px; pointer-events: none; z-index: 9999;"><svg width="190.0" height="140.0" viewbox="0 0 190.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-371924" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,120.0 L 170.0,20.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-371924)"></path></svg></div>
+</section>
+<section id="section-2" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+<h2></h2>
+<div class="column left-align" style="width:60%;">
+<p><img data-src="images/Whole_and_Taxa.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
+</div><div class="column right-align" style="width:40%;">
+<p>Features</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">Taxonomy</label></li>
+<li><label><input type="checkbox">Date</label></li>
+<li><label><input type="checkbox">Spatial</label></li>
+<li><label><input type="checkbox">Authoritative Lists</label></li>
+<li><label><input type="checkbox">Generate a DOI</label></li>
+</ul>
+</div><div style="position: fixed; left: 430.0px; top: 230.0px; pointer-events: none; z-index: 9999;"><svg width="190.0" height="140.0" viewbox="0 0 190.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-635806" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,120.0 L 170.0,20.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-635806)"></path></svg></div>
+</section>
+<section id="section-3" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+<h2></h2>
+<div class="column left-align" style="width:60%;">
+<p><img data-src="images/Whole_and_Taxa.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
+</div><div class="column right-align" style="width:40%;">
+<p>Features</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">Taxonomy</label></li>
+<li><label><input type="checkbox">Date</label></li>
+<li><label><input type="checkbox">Spatial</label></li>
+<li><label><input type="checkbox">Authoritative Lists</label></li>
+<li><label><input type="checkbox">Generate a DOI</label></li>
+</ul>
+</div><div style="position: fixed; left: 55.0px; top: 475.0px; pointer-events: none; z-index: 9999;"><svg width="240.0" height="40.0" viewbox="0 0 240.0 40.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-566644" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,20.0 L 220.0,20.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-566644)"></path></svg></div>
 <!-- -----------------------------------------------------
 Date
 ----------------------------------------------------- --->
 </section>
-<section id="section-2" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+<section id="section-4" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
 <h2></h2>
 <div class="column left-align" style="width:60%;">
 <p><img data-src="images/Date.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
@@ -375,15 +304,14 @@ Date
 <li><label><input type="checkbox">Authoritative Lists</label></li>
 <li><label><input type="checkbox">Generate a DOI</label></li>
 </ul>
-</div><!--  -->
-<!-- -----------------------------------------------------
+</div><!-- -----------------------------------------------------
 Spatial
 ----------------------------------------------------- --->
 </section>
-<section id="section-3" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+<section id="section-5" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
 <h2></h2>
 <div class="column left-align" style="width:60%;">
-<p><img data-src="images/Spatial.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
+<p><img data-src="images/Spatial.png"></p>
 </div><div class="column right-align" style="width:40%;">
 <p>Features</p>
 <ul class="task-list">
@@ -393,12 +321,11 @@ Spatial
 <li><label><input type="checkbox">Authoritative Lists</label></li>
 <li><label><input type="checkbox">Generate a DOI</label></li>
 </ul>
-</div><!--  -->
-<!-- -----------------------------------------------------
+</div><!-- -----------------------------------------------------
 Authoritative Lists
 ----------------------------------------------------- --->
 </section>
-<section id="section-4" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+<section id="section-6" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
 <h2></h2>
 <div class="column left-align" style="width:60%;">
 <p><img data-src="images/Authoritative_Lists.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
@@ -415,10 +342,10 @@ Authoritative Lists
 Other and Bonus
 ----------------------------------------------------- --->
 </section>
-<section id="section-5" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+<section id="section-7" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
 <h2></h2>
 <div class="column left-align" style="width:60%;">
-<p><img data-src="images/Other.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
+<p><img data-src="images/Other.png"></p>
 </div><div class="column right-align" style="width:40%;">
 <p>Features</p>
 <ul class="task-list">
@@ -429,10 +356,10 @@ Other and Bonus
 <li><label><input type="checkbox">Generate a DOI</label></li>
 </ul>
 </div></section>
-<section id="section-6" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+<section id="section-8" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
 <h2></h2>
 <div class="column left-align" style="width:60%;">
-<p><img data-src="images/Other.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
+<p><img data-src="images/Other.png"></p>
 </div><div class="column right-align" style="width:40%;">
 <p>Features</p>
 <ul class="task-list">
@@ -444,10 +371,10 @@ Other and Bonus
 <li><label><input type="checkbox">Generate a DOI</label></li>
 </ul>
 </div></section>
-<section id="section-7" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+<section id="section-9" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
 <h2></h2>
 <div class="column left-align" style="width:60%;">
-<p><img data-src="images/Other.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
+<p><img data-src="images/Other.png"></p>
 </div><div class="column right-align" style="width:40%;">
 <p>Features</p>
 <ul class="task-list">
@@ -458,9 +385,9 @@ Other and Bonus
 <li><label><input type="checkbox" checked="">*Choose extra info</label></li>
 <li><label><input type="checkbox" checked="">Generate a DOI</label></li>
 </ul>
-</div><div style="position: fixed; left: 345.0px; top: 490.0px; pointer-events: none; z-index: 9999;"><svg width="40.0" height="140.0" viewbox="0 0 40.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-686933" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,20.0 L 20.0,120.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-686933)"></path></svg></div>
+</div><div style="position: fixed; left: 345.0px; top: 490.0px; pointer-events: none; z-index: 9999;"><svg width="40.0" height="140.0" viewbox="0 0 40.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-926386" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,20.0 L 20.0,120.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-926386)"></path></svg></div>
 </section>
-<section id="section-8" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+<section id="section-10" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
 <h2></h2>
 <div class="column left-align" style="width:60%;">
 <p><img data-src="images/Other.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
@@ -475,10 +402,9 @@ Other and Bonus
 <li><label><input type="checkbox" checked="">Generate a DOI</label></li>
 <li><label><input type="checkbox" checked="">*Use a DOI</label></li>
 </ul>
-</div><div style="position: fixed; left: 345.0px; top: 490.0px; pointer-events: none; z-index: 9999;"><svg width="40.0" height="140.0" viewbox="0 0 40.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-920002" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,20.0 L 20.0,120.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-920002)"></path></svg></div>
-<div style="position: fixed; left: 500.0px; top: 490.0px; pointer-events: none; z-index: 9999;"><svg width="40.0" height="140.0" viewbox="0 0 40.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-517886" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,20.0 L 20.0,120.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-517886)"></path></svg></div>
+</div><div style="position: fixed; left: 500.0px; top: 490.0px; pointer-events: none; z-index: 9999;"><svg width="40.0" height="140.0" viewbox="0 0 40.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-496270" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,20.0 L 20.0,120.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-496270)"></path></svg></div>
 </section>
-<section id="section-9" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+<section id="section-11" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
 <h2></h2>
 <div class="column left-align" style="width:60%;">
 <p><img data-src="images/Other.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
@@ -494,11 +420,9 @@ Other and Bonus
 <li><label><input type="checkbox" checked="">*Use a DOI</label></li>
 <li><label><input type="checkbox" checked="">*Use other atlases</label></li>
 </ul>
-</div><div style="position: fixed; left: 345.0px; top: 490.0px; pointer-events: none; z-index: 9999;"><svg width="40.0" height="140.0" viewbox="0 0 40.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-114429" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,20.0 L 20.0,120.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-114429)"></path></svg></div>
-<div style="position: fixed; left: 500.0px; top: 490.0px; pointer-events: none; z-index: 9999;"><svg width="40.0" height="140.0" viewbox="0 0 40.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-145204" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,20.0 L 20.0,120.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-145204)"></path></svg></div>
-<div style="position: fixed; left: 40.0px; top: 490.0px; pointer-events: none; z-index: 9999;"><svg width="40.0" height="140.0" viewbox="0 0 40.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-947737" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,20.0 L 20.0,120.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-947737)"></path></svg></div>
+</div><div style="position: fixed; left: 40.0px; top: 490.0px; pointer-events: none; z-index: 9999;"><svg width="40.0" height="140.0" viewbox="0 0 40.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-981163" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,20.0 L 20.0,120.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-981163)"></path></svg></div>
 </section>
-<section id="section-10" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+<section id="section-12" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
 <h2></h2>
 <div class="column left-align" style="width:60%;">
 <p><img data-src="images/Other.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
@@ -507,8 +431,9 @@ Other and Bonus
 <ul class="task-list">
 <li><label><input type="checkbox" checked="">Check Number of Records Before Download</label></li>
 </ul>
-</div></section>
-<section id="section-11" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+</div><div style="position: fixed; left: 55.0px; top: 690.0px; pointer-events: none; z-index: 9999;"><svg width="240.0" height="40.0" viewbox="0 0 240.0 40.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-971633" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,20.0 L 220.0,20.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-971633)"></path></svg></div>
+</section>
+<section id="section-13" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
 <h2></h2>
 <div class="column left-align" style="width:60%;">
 <p><img data-src="images/Other.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
@@ -518,8 +443,9 @@ Other and Bonus
 <li><label><input type="checkbox" checked="">Check Number of Records Before Download</label></li>
 <li><label><input type="checkbox" checked="">Import Occurrence Records into QGIS</label></li>
 </ul>
-</div></section>
-<section id="section-12" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
+</div><div style="position: fixed; left: 640.0px; top: 770.0px; pointer-events: none; z-index: 9999;"><svg width="40.0" height="140.0" viewbox="0 0 40.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-406688" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,120.0 L 20.0,20.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-406688)"></path></svg></div>
+</section>
+<section id="section-14" class="slide level2" data-background-gradient="linear-gradient(to bottom right, #dcdb9a, #aeb766)">
 <h2></h2>
 <div class="column left-align" style="width:60%;">
 <p><img data-src="images/Other.png"> <!-- {.absolute left=300 bottom=50 width="900"} --></p>
@@ -530,7 +456,8 @@ Other and Bonus
 <li><label><input type="checkbox" checked="">Import Occurrence Records Into QGIS</label></li>
 <li><label><input type="checkbox" checked="">Get Species List With Counts and Statuses</label></li>
 </ul>
-</div><!-- -----------------------------------------------------
+</div><div style="position: fixed; left: 200.0px; top: 770.0px; pointer-events: none; z-index: 9999;"><svg width="40.0" height="140.0" viewbox="0 0 40.0 140.0" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;"><defs><marker id="arrow-235796" markerwidth="10" markerheight="10" refx="0" refy="5.0" orient="auto-start-reverse" markerunits="strokeWidth"><path d="M 0 0 L 10 5.0 L 0 10 z" fill="#f66142"></path></marker></defs><path d="M 20.0,120.0 L 20.0,20.0" stroke="#f66142" stroke-width="4" fill="none" marker-end="url(#arrow-235796)"></path></svg></div>
+<!-- -----------------------------------------------------
 Final Slide
 ----------------------------------------------------- --->
 </section>
@@ -541,7 +468,7 @@ Final Slide
 </div><!-- Add Poster number here -->
 <div class="column right-align" style="width:40%;">
 <!-- .right-align} -->
-<p><br><br><strong>Poster:</strong> #XXXX <br><br><strong>Quail documentation:</strong> <br> <img data-src="images/Quail_Docs_QR.png" style="width:60.0%"></p>
+<p><br><br><strong>Quail documentation:</strong> <br> <img data-src="images/Quail_Docs_QR.png" style="width:60.0%"></p>
 </div></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
